@@ -6,12 +6,8 @@ personal website
 - 資料庫 database：MySQL
 - 前端UI frontend UI：Semantic UI framework
 
-## 工具与环境：
-
-## IDEA
-
-# Maven 3
-
-JDK 8
-
-Axure RP 8
+## 工具、環境：
+- IntelliJ IDEA
+- Maven 3
+- JDK 8
+- Axure RP 8
