@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head  th:replace="_fragments :: head(~{::title})">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>關於我</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+  <link rel="stylesheet" href="../static/css/me.css">
+</head>
+<body>
+
+  <!--導航-->
+  <nav th:replace="_fragments :: menu(5)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small"/>
+
+  <!--中間內容-->
+  <div  class="m-container m-padded-tb-big animated fadeIn">
+    <div class="ui container">
+
+      <div class="ui stackable grid">
+        <div class="eleven wide column">
+          <div class="ui top attached segment">
+            <div class="ui header">關於我</div>
+          </div>
+          <div class="ui attached segment">
+            <p class="m-text">您好，謝謝願意花時間看我的介紹，我是一名軟體工程師，擁有多年的軟體開發經驗。我喜歡挑戰複雜的問題，並且喜歡用技術來解決問題，尤其是在開發軟體方面。</p>
+            <p class="m-text">我的技能範圍包括多種程式語言，例如Java、Python和JavaScript，以及各種軟體開發框架和工具，例如Spring Boot、Angular、Docker、Git等等。我也有豐富的資料庫經驗，熟悉MySQL、Elasticsearch等常見的關聯式和非關聯式資料庫。</p>
+            <p class="m-text">除了技術技能，我也非常注重團隊合作和溝通，能夠與不同背景和技能的人們一起工作。我經常參加技術社群的活動，學習和分享最新的技術發展和最佳實踐。</p>
+            <p class="m-text">最後，我相信自己可以快速學習並適應新的技術和環境，這是我在軟體工程領域成功的一個重要因素。謝謝！</p>
+          </div>
+          <div class="ui segment">
+            <img th:src="@{/images/AboutMe.jpg}" alt="" class="ui rounded image"/>
+          </div>
+        </div>
+        <div class="five wide column">
+          <div class="ui attached segment">
+            <div class="ui orange basic left pointing label">編程</div>
+            <div class="ui orange basic left pointing label">攝影</div>
+            <div class="ui orange basic left pointing label">遊戲</div>
+            <div class="ui orange basic left pointing label">電影</div>
+          </div>
+          <div class="ui attached segment">
+            <div class="ui orange basic left pointing label">Java 二年經驗</div>
+            <div class="ui orange basic left pointing label">C# 一年經驗</div>
+            <div class="ui orange basic left pointing label">Python 半年經驗</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">Spring Boot</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">Spring MVC</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">Servlet</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">Angular</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">AJAX</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">TypeScript</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">JavaScript</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">Node.js</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">AngularJS</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">.NET Framework</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">J2EE</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">jQuery</div>
+          </div>
+          <div class="ui attached segment">開發工具 :
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">Eclipse</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">Visual Studio Code</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">Visual Studio 2019</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">intellij idea</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">Spyder</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">STS(Spring Tool Suite)</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">Postman</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">PuTTY</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">Docker</div>
+          </div>
+          <div class="ui attached segment">版本控制 :
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">Azure DevOps Server(TFS)</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">Git</div>
+          </div>
+          <div class="ui attached segment">關聯式資料庫 :
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">MYSQL</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">PL/SQL</div>
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">SQL Server</div>
+          </div>
+          <div class="ui attached segment">非關聯式資料庫 :
+            <div class="ui teal basic left pointing label m-margin-tb-tiny">Elasticsearch</div>
+          </div>
+          <div class="ui bottom attached segment">
+            <a href="#" class="ui circular icon button"><i class="github icon"></i></a>
+            <a href="#" class="ui wechat circular icon button"><i class="weixin icon"></i></a>
+            <a href="#" class="ui qq circular icon button" data-content="865729312" data-position="bottom center"><i class="qq icon"></i></a>
+          </div>
+
+          <div class="ui wechat-qr flowing popup transition hidden">
+            <img src="../static/images/wechat.jpg" alt="" class="ui rounded image" style="width: 110px">
+          </div>
+          </div>
+      </div>
+
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <!--底部footer-->
+  <footer th:replace="_fragments :: footer" class="ui inverted vertical segment m-padded-tb-massive"/>
+
+  <!--/*/<th:block th:replace="_fragments :: script">/*/-->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+  <!--/*/</th:block>/*/-->
+
+  <script>
+    $('.menu.toggle').click(function () {
+      $('.m-item').toggleClass('m-mobile-hide');
+    });
+
+    $('.wechat').popup({
+      popup : $('.wechat-qr'),
+      position: 'bottom center'
+    });
+    $('.qq').popup();
+
+  </script>
+</body>
+</html>
