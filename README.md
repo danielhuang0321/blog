@@ -15,6 +15,7 @@
 
 
 ## 需求分析 :
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://www.atatus.com/glossary/content/images/2021/07/CRUD.jpeg)
 
 ### #訪客功能
 - [x] 可以分頁查看所有文章
@@ -43,4 +44,4 @@
 - [x] 可以刪除文章 (delete)
 
 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://www.atatus.com/glossary/content/images/2021/07/CRUD.jpeg)
+
