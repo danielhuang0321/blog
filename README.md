@@ -41,3 +41,6 @@
 - [x] 可以對文章附上標籤
 - [x] 可以修改文章 (update)
 - [x] 可以刪除文章 (delete)
+
+
+(https://www.atatus.com/glossary/content/images/2021/07/CRUD.jpeg)
