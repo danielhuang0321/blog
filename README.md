@@ -42,4 +42,4 @@
 - [x] 可以修改文章 (update)
 - [x] 可以刪除文章 (delete)
 
-/blog/src/main/resources/static/images/CRUD.jpeg
+/src/main/resources/static/images/CRUD.jpeg
