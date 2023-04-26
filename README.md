@@ -42,5 +42,5 @@
 - [x] 可以修改文章 (update)
 - [x] 可以刪除文章 (delete)
 
-
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.]
 (https://www.atatus.com/glossary/content/images/2021/07/CRUD.jpeg)
