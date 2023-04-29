@@ -2,15 +2,19 @@
 
 
 ## 採用技術框架 :
-- 後端 backend：Spring Boot + JPA + thymeleaf 模板
+- 後端 backend：
+  - Spring Boot 
+  - Spring Data JPA (應用程式存取資料庫的框架。) 
+  - thymeleaf 模板 (頁面模板引擎，屬MVC模式的View。)
+
 - 資料庫 database：MySQL
 - 前端UI frontend UI：Semantic UI framework
 
 
 ## 工具、環境：
 - IntelliJ IDEA
-- Maven 3
-- JDK 8
+- Maven 3 : Java應用程式的建置及套件管理工具。
+- JDK 8 : 撰寫後端應用程式的程式語言。
 - Axure RP 8
 
 
