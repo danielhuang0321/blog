@@ -5,7 +5,7 @@
 - 後端 backend：
   - Spring Boot 
   - Spring Data JPA (應用程式存取資料庫的框架。) 
-  - thymeleaf 模板 (頁面模板引擎，屬MVC模式的View。)
+  - thymeleaf 3 模板 (頁面模板引擎，屬MVC模式的View。)
 
 - 資料庫 database：MySQL
 - 前端UI frontend UI：Semantic UI framework
